@@ -1,0 +1,22 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = git@github.com:AlphaDecodeX/AuthService.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[user]
+	email = lpsk5713@gmail.com
+	name = alphadecodex
+[remote "orig"]
+	url = https://github.com/Aneesh0605/Authorization-System-security-JWT-
+	fetch = +refs/heads/*:refs/remotes/orig/*
+[branch "master"]
+	remote = orig
+	merge = refs/heads/master
+[remote "home"]
+	url = https://github.com/Aneesh0605/Authorization-System
+	fetch = +refs/heads/*:refs/remotes/home/*
